@@ -51,4 +51,5 @@ Na barra de pesquisa da documentação do **Bootstrap**, procurei por "Navbar" e
  - Inclusão da classe `justify-content-end` no elemento pai do elemento de classe `navbar-nav` para alinhamento do menu à direita.  
  - Retirada a classe `disabled` e os atributos ` tabindex="-1" aria-disabled="true"` do link do menu de navegação.  
 
-
+## Adicionando carrossel e resolvendo alguns bugs
+ - Adicionado classe `imagem-carrossel` nas duas imagens do carousel;
