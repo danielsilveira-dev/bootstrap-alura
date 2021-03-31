@@ -52,4 +52,33 @@ Na barra de pesquisa da documentação do **Bootstrap**, procurei por "Navbar" e
  - Retirada a classe `disabled` e os atributos ` tabindex="-1" aria-disabled="true"` do link do menu de navegação.  
 
 ## Adicionando carrossel e resolvendo alguns bugs
- - Adicionado classe `imagem-carrossel` nas duas imagens do carousel;
+ - Adicionado as classes `imagem-carrossel-um` e `imagem-carrossel-dois` nas duas imagens do carousel;
+ - Remoção do marcador da terceira imagem.
+ - Configurando o tempo de transição de imagens do carousel
+
+
+### data-attributes
+
+O atributo "data-" existe para que possamos adicionar informações customizadas/dinâmicas no DOM, sem utilizar classes nem IDs. Como os sites e aplicações web estão cada vez mais interativos, aumenta também a necessidade de adicionarmos informações específicas no DOM, que não conseguimos cobrir somente com as classes e IDs. Por exemplo, exibir na tela um registro de uma aluna de um banco de dados de alunos de uma escola:
+
+```html
+<p id="43oi344y4546y23" class="p-aluna" data-matricula="342543">Nome Aluna</p>
+```
+
+No exemplo acima, o atributo `id` está trazendo um valor de ID da entrada da informação no banco de dados (informação única para cada entrada), o atributo `class` está cuidando dos estilos e utilizamos o atributo `data-matricula` para adicionar no DOM uma informação extra que podemos usar como referência (no caso, o número de matrícula).
+
+## Trabalhando com fontes alternativas
+ - Foi incluido uma classe chamada `fonte-titulo` para cada título nas imagens para modificação da fonte.
+
+## Oque aprendemos?
+  - Ler mais um pouco da documentação do Bootstrap e usar seu componente `carousel`;
+  - Ler o HTML e ir descobrindo o que fazem algumas partes do código do Bootstrap;
+  - Utilizar o CSS para complementar nosso trabalho quando o Bootstrap não cobre 100%;
+  - Trabalhar com elementos de tamanho fixo, como imagens; Formatar textos utilizando o Bootstrap.
+
+Para nossas fontes, utilizamos a biblioteca de fontes gratuitas do [Google Fonts](https://fonts.google.com/), porém você também pode utilizar outras, como a da [Adobe](https://edgewebfonts.adobe.com/) e do site Font Squirrel. O [Font Squirrel](https://www.fontsquirrel.com/) também permite que você crie suas próprias web fonts! Porém, sempre antes de utilizar qualquer fonte em seus projetos, leia com atenção as licenças de uso, pois algumas fontes e serviços de fontes podem ter restrições de uso, por exemplo, para uso comercial.
+
+Links da documentação do Bootstrap que utilizamos nessa aula:
+[Carrossel](https://fonts.google.com/) | 
+[Tipografia](https://getbootstrap.com/docs/4.3/content/typography/) | 
+[Alinhamento de texto](https://getbootstrap.com/docs/4.3/utilities/text/#text-alignment)
