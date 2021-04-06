@@ -105,3 +105,26 @@ Para usar padding com o **Bootstrap** posso fazer da seguinte forma:
  - Pequisar por espaçamento(spacing) na Documentação do Bootstrap
 
 `m-#` / 
+
+# 04. Conhecendo o HTML semântico e inserindo cards
+
+## 01. Adicionando cards
+
+Selecionamos um card na documentação do Bootstrap
+
+```html
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+```
+
+# 05. Alinhando elementos com Bootstrap Grid
+
+## 03. Trabalhando com o Bootstrap Grid
+
+Na documentação, ir em [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)
