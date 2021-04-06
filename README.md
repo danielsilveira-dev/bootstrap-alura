@@ -82,3 +82,19 @@ Links da documentação do Bootstrap que utilizamos nessa aula:
 [Carrossel](https://fonts.google.com/) | 
 [Tipografia](https://getbootstrap.com/docs/4.3/content/typography/) | 
 [Alinhamento de texto](https://getbootstrap.com/docs/4.3/utilities/text/#text-alignment)
+
+# 03. Títulos, textos e ferramentas de espaçamento
+
+## 01 Formatando o título e subtítulo
+
+No **Bootstrap** posso fazer o alinhamento de texto da seguinte forma:  
+
+Lá na página da documentação, temos várias opções de alinhamento e, para este exemplo, escolhi esta opção:  
+
+```html
+<h2 class="text-center">Receitas para economizar e ganhar saúde</h2>
+```
+`class="text-center`
+
+## 02. Criando classes para formatação de texto
+
