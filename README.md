@@ -98,3 +98,10 @@ Lá na página da documentação, temos várias opções de alinhamento e, para 
 
 ## 02. Criando classes para formatação de texto
 
+## 03. Modificando margens e padding
+
+Para usar padding com o **Bootstrap** posso fazer da seguinte forma:
+
+ - Pequisar por espaçamento(spacing) na Documentação do Bootstrap
+
+`m-#` / 
