@@ -127,4 +127,6 @@ Selecionamos um card na documentação do Bootstrap
 
 ## 03. Trabalhando com o Bootstrap Grid
 
-Na documentação, ir em [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)
+Na documentação, ir em [Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)  
+
+Podemos utilizar da seguinte forma:
